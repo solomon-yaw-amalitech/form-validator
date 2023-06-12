@@ -64,6 +64,14 @@ input {
   transition: all 0.3;
 }
 
+input:valid {
+  border: 2px solid green;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
 button {
   cursor: pointer;
   color: white;
